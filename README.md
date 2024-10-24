@@ -2,7 +2,7 @@
 Third-Party API Javascript Vulnerability Analysis by Neural Network
 
 ```shell
-my_neural_network_project/
+Vuln-Analysis-NN/
 │
 ├── data/                      # 数据存储目录
 │   ├── raw/                   # 原始数据集
