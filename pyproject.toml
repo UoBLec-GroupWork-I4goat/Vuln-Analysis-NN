@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "vuln-analysis-nn"
+version = "0.1.0"
+description = ""
+authors = ["Anxiu0101 <anxiu.fyc@foxmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.5.0"
+numpy = "^2.1.2"
+pandas = "^2.2.3"
+imblearn = "^0.0"
+scikit-learn = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
