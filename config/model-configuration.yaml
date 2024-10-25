@@ -1,0 +1,19 @@
+# Model Hyperparameters
+models:
+  - name: "Model_1"
+    hidden_layers: [64, 128, 64]  # 隐藏层的节点数
+    activation_function: "ReLU"
+    epoch_number: 50
+    learning_rate: 0.001
+
+  - name: "Model_2"
+    hidden_layers: [128, 256]
+    activation_function: "Tanh"
+    epoch_number: 100
+    learning_rate: 0.0005
+
+  - name: "Model_3"
+    hidden_layers: [256, 128, 64, 32]
+    activation_function: "LeakyReLU"
+    epoch_number: 75
+    learning_rate: 0.0001
